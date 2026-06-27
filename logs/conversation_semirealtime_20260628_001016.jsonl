@@ -96,3 +96,4 @@
 {"ts": "2026-06-28T00:16:09", "session_id": "20260628_001016", "event": "tts_sentence_generated", "text": "That's great!", "output": "C:\\Users\\chars1\\python311env\\ollama_voice_wsl_repo\\tmp\\response_2.wav"}
 {"ts": "2026-06-28T00:16:13", "session_id": "20260628_001016", "event": "tts_sentence_generated", "text": "The city can be such a wonderful place to clear your head and get some inspiration.", "output": "C:\\Users\\chars1\\python311env\\ollama_voice_wsl_repo\\tmp\\response_3.wav"}
 {"ts": "2026-06-28T00:16:20", "session_id": "20260628_001016", "event": "tts_sentence_generated", "text": "Is there something specific you'd like to do or see while you're out?", "output": "C:\\Users\\chars1\\python311env\\ollama_voice_wsl_repo\\tmp\\response_4.wav"}
+{"ts": "2026-06-28T00:19:39", "session_id": "20260628_001016", "event": "keyboard_interrupt"}
