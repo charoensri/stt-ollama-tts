@@ -1,4 +1,4 @@
-# Ollama Local Voice Assistant for WSL
+# Ollama Local Voice Assistant for WSL / Windows
 
 A **no API key** local voice assistant pipeline:
 
