@@ -238,10 +238,12 @@ This is intentionally modular:
 - Add MCP/tool-calling inside `ask_ollama()` later.
 
 
-
+```
 //========= More robust example =========
 python app_production.py
+```
 
+```
 //------- .env ---------
 OLLAMA_BASE_URL=http://localhost:11434
 OLLAMA_MODEL=llama3.2:latest
@@ -265,4 +267,4 @@ SAVE_AUDIO=false
 PIPER_MODEL=models/en_US-lessac-medium.onnx
 #because your model is beside app.py, not inside a models folder.
 
-
+```
