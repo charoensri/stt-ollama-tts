@@ -1,0 +1,21 @@
+# Ollama
+OLLAMA_BASE_URL=http://localhost:11434
+OLLAMA_MODEL=llama3.2
+
+# Whisper STT
+# Start with CPU on WSL. Try cuda/float16 only after CPU works.
+WHISPER_MODEL=base.en
+WHISPER_DEVICE=cpu
+WHISPER_COMPUTE_TYPE=int8
+
+# Audio
+RECORD_SECONDS=5
+SAMPLE_RATE=16000
+INPUT_DEVICE=
+OUTPUT_DEVICE=
+
+# Piper TTS
+PIPER_MODEL=models/en_US-lessac-medium.onnx
+
+# Assistant behaviour
+SYSTEM_PROMPT=You are a concise local voice assistant. Keep responses short and conversational.

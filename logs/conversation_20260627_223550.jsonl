@@ -1,0 +1,4 @@
+{"ts": "2026-06-27T22:35:50", "session_id": "20260627_223550", "event": "app_start", "version": "2.0.0"}
+{"ts": "2026-06-27T22:35:50", "session_id": "20260627_223550", "event": "ollama_check", "base_url": "http://localhost:11434", "models": ["x/flux2-klein:latest", "gpt-oss:20b", "deepseek-r1:1.5b", "glm-4.7-flash:latest", "llava:latest", "bakllava:latest", "granite3.3:8b", "llama3.2:latest", "mistral:7b", "nomic-embed-text:latest", "all-minilm:latest", "llama3.1:latest", "peach:latest", "serimodelFromllama31:latest", "mxbai-embed-large:latest", "qwen:0.5b", "mistral:latest", "moondream:1.8b"]}
+{"ts": "2026-06-27T22:35:52", "session_id": "20260627_223550", "event": "stt_model_loaded", "model": "base.en", "device": "cpu", "compute_type": "int8"}
+{"ts": "2026-06-27T22:37:39", "session_id": "20260627_223550", "event": "keyboard_interrupt"}
