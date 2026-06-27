@@ -236,3 +236,33 @@ This is intentionally modular:
 - Replace Piper with Coqui/Bark later if you want higher quality.
 - Keep Ollama as the local reasoning layer.
 - Add MCP/tool-calling inside `ask_ollama()` later.
+
+
+
+//========= More robust example =========
+python app_production.py
+
+//------- .env ---------
+OLLAMA_BASE_URL=http://localhost:11434
+OLLAMA_MODEL=llama3.2:latest
+OLLAMA_TIMEOUT=120
+OLLAMA_TEMPERATURE=0.4
+OLLAMA_NUM_CTX=4096
+WHISPER_MODEL=base.en
+WHISPER_DEVICE=cpu
+WHISPER_COMPUTE_TYPE=int8
+RECORD_SECONDS=5
+SAMPLE_RATE=16000
+INPUT_DEVICE=
+OUTPUT_DEVICE=
+PIPER_MODEL=en_US-lessac-medium.onnx
+PIPER_EXE=piper
+ASSISTANT_NAME=Luna
+USER_LOCATION=Sydney, NSW, Australia
+MAX_MEMORY_TURNS=8
+SAVE_AUDIO=false
+#Important change:
+PIPER_MODEL=models/en_US-lessac-medium.onnx
+#because your model is beside app.py, not inside a models folder.
+
+
